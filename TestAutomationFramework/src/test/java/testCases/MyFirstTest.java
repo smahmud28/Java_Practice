@@ -32,7 +32,7 @@ public class MyFirstTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
 
-        WebDriver driver = new ChromeDriver(options);
+        WebDriver driver = new ChromeDriver(options); 
         driver.get("https://www.expedia.com");
         System.out.println("Page title is: " + driver.getTitle());
         
